@@ -1,0 +1,45 @@
+
+#start_text
+{
+    color:red;
+}
+
+h4
+{
+    color: red;
+}
+
+img:hover
+{
+border-radius: 90px;
+}
+
+.copy_right_footer
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: gainsboro;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    background-color: gainsboro;
+}
+
+h1
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+
+.img
+{
+    display: inline;
+    padding: 15px;
+}
+
+
+

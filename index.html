@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <title>Collage Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <center>
+        <h1> Collage Web App </h1>
+        <hr>
+        <h4> As soon as the popup appears, please click Allow. After you have spoken the command. </h4>
+        <h3> Say selfie, and this will take 3 selfies for you.</h3>
+
+        <hr>
+        <button id="start" class="btn btn-warning" onclick="start()"> Start </button>
+        <h3 id="start_text"></h3> Press the Start button to Start.</h3>
+        <hr>
+
+        <label> This Is Your Webcam </label>
+        <div id="camera"></div>
+        <br><br> <br>
+
+        <label> All Selfies Are Displayed Here </label>
+
+        <div class="resultShow">
+            <div id="result1"
+            class="img">
+                <img src="https://www.sony.com.au/image/327a56bc6c517267cb5ee810c2f466d1?fmt=pjpeg&wid=1014&hei=396&bgcolor=F1F5F9&bgc=F1F5F9" style="width: 30%;">
+            </div>
+
+            <div id="result2"
+            class="img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQv2JqufLZq1s2XxLjj5mwr_alJrBi5grwCQ&usqp=CAU" style="width: 30%;">
+            </div>
+
+            <div id="result3"
+            class="img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk6brj4GRJzhEjp-CdupBUq5e_nTeBNWkd04my63e5fBTBvg2WsSbGJWmrS5eQX2jY8Eg&usqp=CAU" style="width: 30%;">
+            </div>
+        </div>
+    
+    </center>
+
+    <div class="copy_right_footer">
+        Developed By - Krish
+    </div>
+
+</body>
+
+<script src="main.js">
+</script>
+
+</html>
